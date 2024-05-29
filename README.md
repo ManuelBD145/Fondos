@@ -118,9 +118,8 @@ El contrato está diseñado para ser un ejemplo educativo y contiene varias vuln
 
 ### Posibles Vulnerabilidades
 
-* Desbordamiento de enteros: Usar una versión anterior a Solidity 0.8.0 puede permitir desbordamientos de enteros.
 * Acceso no autorizado: Asegurarse de que las funciones críticas están adecuadamente protegidas.
-* Reentrancy Attack: Verificar que las funciones de retiro son seguras contra ataques de reentrada.
+
 ## Conclusión
 El contrato VulnerableDailyLimitWallet es un ejemplo de cómo una aparentemente simple funcionalidad puede contener vulnerabilidades si no se implementa correctamente. Es fundamental realizar una auditoría exhaustiva de los contratos inteligentes para identificar y corregir posibles vulnerabilidades antes de desplegarlos en la red principal.
 
