@@ -50,10 +50,6 @@ Se recomienda utilizar un entorno de desarrollo integrado (IDE) como Visual Stud
 - Permite escribir tests y scripts directamente en Solidity.
 - Incluye múltiples cheatcodes para testing y debugging.
 
-
-
-
-
 ## Instalación de Foundry
 ## Paso a Paso
 
@@ -118,7 +114,7 @@ El contrato está diseñado para ser un ejemplo educativo y contiene varias vuln
 
 ### Posibles Vulnerabilidades
 
-* Acceso no autorizado: Asegurarse de que las funciones críticas están adecuadamente protegidas.
+* Variable no inicializada: Asegurarse de que las funciones críticas están adecuadamente protegidas.
 
 ## Conclusión
 El contrato VulnerableDailyLimitWallet es un ejemplo de cómo una aparentemente simple funcionalidad puede contener vulnerabilidades si no se implementa correctamente. Es fundamental realizar una auditoría exhaustiva de los contratos inteligentes para identificar y corregir posibles vulnerabilidades antes de desplegarlos en la red principal.
